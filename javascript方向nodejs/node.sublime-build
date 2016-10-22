@@ -1,0 +1,33 @@
+//sublimetext2 使用 build nodejs
+// {
+  
+//   "cmd": ["/usr/local/bin/node", "$file"],
+//   "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+//   "selector": "source.js",
+//   "shell":true,
+//   ""
+//   "encoding": "utf8",
+//   "windows":
+//     {
+//      "cmd": ["taskkill /F /IM node.exe & node", "$file"]
+//     },
+//   "linux":
+//     {
+//         "cmd": ["killall node; node", "$file"]
+//     },
+//     "osx":
+//     {
+//   "cmd": ["/usr/local/bin/node","$file"]
+//     }
+// }
+
+//sublimetext3 使用 build nodejs
+
+{
+  
+
+  "cmd": ["/usr/local/bin/node", "$file"],
+
+  "selector": "source.js",
+
+}
